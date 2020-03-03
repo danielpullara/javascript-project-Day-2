@@ -4,10 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currency Converter</title>
+
 </head>
 
 <body>
-    <script src="main.js" />
-    </body>
+    <h1>Currency Converter</h1>
+    <button onclick="convertToVnd()">Convert Currency</button>
+    <input id="amount" type="number" />
+    <label> Primary currency</label>
+    <select id="from" name="from">
+        <option value="USD">USD</option>
+        <option value="VND">VND</option>
+        <option value="KRW">KRW</option>
+        <option value="EUR">EUR</option>
+    </select>
+
+    <label> Desired currency</label>
+    <select id="to" name="to">
+        <option value="USD">USD</option>
+        <option value="VND">VND</option>
+    </select>
+
+    <div id="result-area"> Result will be here</div>
+
+
+
+
+
+
+
+    <script src="main.js"> </script>
+</body>
+
 </html>
